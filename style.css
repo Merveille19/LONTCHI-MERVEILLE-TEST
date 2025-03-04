@@ -22,11 +22,6 @@ body, html {
     border-radius: 10px;
 }
 
-/* Style des flèches */
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    filter: invert(1); /* Flèches blanches */
-}
 
 .carousel-indicators button {
     width: 50px;
