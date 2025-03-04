@@ -17,12 +17,26 @@ body, html {
 }
 
 .carousel-caption {
-    background: rgba(0, 0, 0, 0.5); /* Fond semi-transparent */
+    background: rgba(245, 242, 242, 0.5); 
     padding: 20px;
     border-radius: 10px;
 }
 
+/* Style des flèches */
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    filter: invert(1); /* Rendre les flèches blanches */
+    filter: invert(1); /* Flèches blanches */
+}
+
+.carousel-indicators button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(248, 243, 243); 
+    border: none;
+    margin: 5px;
+}
+
+.carousel-indicators .active {
+    background-color: orange;
 }
